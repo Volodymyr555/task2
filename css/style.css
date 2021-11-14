@@ -1,0 +1,225 @@
+/* цвет лого #2196F3 */
+/* цвет навигации и заголовков #212121 */
+/* цвет номера телефона и основного текста #757575 */
+/* цвет изменеия навигации #2196F3 */
+/* цвет адресса #FFFFFF */
+/* цвет синего фона в кнопке #2196F3 */
+/* цвет имейла rgba(255, 255, 255, 0.6) */
+/* цвет номера телефона в футере rgba(255, 255, 255, 0.6) */
+/* цыет фона НАША КОМАНДА  #F5F4FA */
+/* #E5E5E5 */
+:root {
+  --primary-bcg: #ffffff;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer-bcg: #2f303a;
+  --logo: #000000;
+  --text-secondary: #ffffff;
+  --buttons-text:#212121;
+  --buttons-bcg: #F5F4FA;
+  --buttons-hover-text:#FFFFFF;
+  --buttons-hover-bcg:#2196F3;
+}
+
+body {
+  font-family: Roboto, sans-serif; 
+  letter-spacing: 0.03em; 
+  background-color: var(--primary-bcg);
+  color: var(--primary-text-color);
+}
+
+
+/* logo */
+.logo-web {
+  font-family: Raleway; sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.19; 
+  color: var(--accent-text-color);
+}
+.logo-studio {
+  font-family: Raleway; sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19; 
+  color: var(--logo);
+}
+
+
+.list {
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
+}
+
+/* navigation links */
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .current {
+  color: var(--accent-text-color);
+}
+
+
+
+/* contacts */
+.contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-text-color);
+}
+
+/* hero style */
+.hero {
+  background-color: var(--footer-bcg);
+}
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.hero-button {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--buttons-hover-text);
+  background-color: var(--buttons-hover-bcg);
+}
+
+/* benefits -Сильные стороны */
+
+.benefits-title {
+  visibility: hidden;}
+
+.benefits-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.benefirs-list-title-description{
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* our works - Чем мы занимаемся */
+.our-works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.31;
+  text-align: center;
+  color: var(--title-text-color);
+}
+/* team - наша команда  */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.team-list-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+}
+
+.team-list-name-descriptions{
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+.footer {
+  background-color: var(--footer-bcg);
+}
+.footer .logo-studio {
+  color: var(--text-secondary);
+}
+.adress-physical {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-secondary);
+}
+.footer .adress-contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-contacts-color);
+}
+
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-text-color);
+}
+
+
+
+/* Portfolio  page*/
+/* progress-title-Наши достижения*/
+.progress-title{
+  visibility: hidden;
+}
+
+/* filters buttons */
+.filters-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--buttons-primary-text);
+  background-color: var(--buttons-primry-bcg);
+  cursor: pointer;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--buttons-hover-text);
+  background-color: var(--buttons-hover-bcg);
+} 
+
+/* progress-cards */
+.progress-cards-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--title-text-color)
+}
+
+.progress-cards-title-description{
+  font-size: 16px;
+  line-height: 1.87;  
+}
